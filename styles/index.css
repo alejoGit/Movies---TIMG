@@ -1,0 +1,28 @@
+body{
+  padding: 0; 
+  margin: 0;
+  font-family: 'Helvetica Neue';
+}
+
+.title{
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 3px #6530dd;
+}
+
+.btn{
+  background-color: #6530dd;
+  color:white;
+  border:  none;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  letter-spacing: 1.2px;
+  border-radius: 16px;
+  outline: none;
+}
+.btn:hover{ 
+  background-color: #0b84ff;
+  cursor: pointer;
+}

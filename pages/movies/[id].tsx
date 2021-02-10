@@ -15,7 +15,6 @@ const StaticPropsDetail = ({ errors, movie  }: Props) => {
 
   const makeSchema = () => {
     return {
-        // schema truncated for brevity
         '@context': 'http://schema.org',
         '@type': 'Movie',
         name: movie && movie.title,
@@ -49,16 +48,7 @@ const StaticPropsDetail = ({ errors, movie  }: Props) => {
         </div>
       }
       </Layout>
-      {/* <script type="application/ld+json" >{`
-        {
-          "@context":"https://schema.org/",
-          "@type":"Movie",
-          "name":"${movie && movie.title}",
-          "description": "${movie && movie.overview}",
-        }
-        `}</script> */}
-
-        <script
+      <script
             type='application/ld+json'
             dangerouslySetInnerHTML={{ __html: JSON.stringify(makeSchema()) }}
         />

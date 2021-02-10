@@ -1,5 +1,3 @@
-import { GetStaticProps } from 'next'
-
 import Layout from '../../components/Layout'
 import { getLocalStorageFavorites } from '../../localstorage';
 import {useState, useEffect} from 'react';

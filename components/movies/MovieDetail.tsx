@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { GetStaticProps } from 'next'
 import { Movie } from '../../interfaces'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { CircularProgressbar } from 'react-circular-progressbar';
